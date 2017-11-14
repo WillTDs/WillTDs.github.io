@@ -1,0 +1,53 @@
+html, body {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../images/will.jpeg');
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 3rem;
+}
+
+a {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 2rem;
+  margin-right: 10px;
+  border: 1px solid rgb(41, 43, 44);
+  color: rgb(41, 43, 44);
+  padding: 4px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.linkWrap {
+  width: 100%;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
