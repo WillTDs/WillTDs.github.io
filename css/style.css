@@ -94,6 +94,8 @@ a.grow:hover {
   padding: 4px 12px;
 }
 
+/*contact*/
+
 h4 {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 0;
@@ -103,4 +105,8 @@ h4 {
 .fa {
   font-size: 24px;
   margin-right: 5px;
+}
+
+.contact {
+  color: black;
 }
