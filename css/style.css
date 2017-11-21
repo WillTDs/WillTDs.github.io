@@ -7,9 +7,14 @@ body {
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-image: url('../images/will.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
 }
 
 .container {
@@ -31,28 +36,11 @@ h1 {
 a {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 2rem;
-  margin-right: 10px;
+  /*margin-right: 10px;*/
   border: 1px solid #fff;
   border-radius: 3px;
   color: #fff;
   padding: 4px 6px;
-}
-
-a.grow:hover {
-  border: 1px solid #fff;
-  text-decoration: none;
-  color: #fff;
-  transform: ;
-}
-
-.links {
-  display: flex;
-  justify-content: space-around;
-}
-
-.linkWrap {
-  width: 100%;
-  text-align: center;
 }
 
 .column {
@@ -60,6 +48,10 @@ a.grow:hover {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+.header {
+  font-size: 90px;
 }
 
 /*portfolio*/
@@ -74,6 +66,7 @@ a.grow:hover {
 
 .card {
   margin-bottom: 40px;
+  border: 1px solid black;
 }
 
 .card-img-top {
@@ -94,12 +87,18 @@ a.grow:hover {
   padding: 4px 12px;
 }
 
-/*contact*/
+/*info*/
 
-h4 {
+.info {
+  height: 100vh;
+  background-color: #7b7a7a;
+}
+
+h5 {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 0;
   line-height: 2;
+  font-size: 24px;
 }
 
 .fa {
@@ -109,4 +108,15 @@ h4 {
 
 .contact {
   color: black;
+}
+
+.info-img {
+  border: 3px solid white;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 90%;
+}
+
+.info-title {
+  margin: 1.25rem 0 0 1.25rem;
 }

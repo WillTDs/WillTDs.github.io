@@ -6,22 +6,123 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/app.js"></script>
 </head>
 <body>
   <main class="container">
-    <div class="row">
+
+    <div class="row page-one">
       <div class="col-md-5 offset-md-1 column">
-        <div class="row links">
-          <h1>William Tye - Web Developer</h1>
-          <div class="linkWrap">
-            <a class="grow" href="contact.html">Info</a>
-            <a class="grow" href="portfolio.html">Portfolio</a>
+        <h1 class="header">William Tye  Web Developer</h1>
+      </div>
+    </div>
+
+    <div class="row page-two">
+      <div class="col-md-8 offset-md-2">
+        <h1 class="pfTitle">My Projects</h1>
+        <div class="card">
+          <img class="card-img-top image-responsive" src="./images/landmarker1.png">
+          <div class=card-block>
+            <div class=card-title>
+              <h4>LANDMARKER</h4>
+              <a class="cardLink" href="http://land-marker.herokuapp.com">View</a>
+            </div>
+            <div class=card-text>A mobile app, that uses Google Vision and Wiki API to allow the user to take a photo of a landmark and recieve information from wikipedia about it. The user can then listen or read about what they are looking at in the language that they chose</div>
+            <br/>
+            <div class=card-text>Built using JavaScript ES6, SCSS, HTML5, ReactJS, Express, Mongo and Webpack</div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="row page-three">
+    <div class="col-md-8 offset-md-2">
+      <div class="card">
+        <img class="card-img-top image-responsive" src="./images/mapp1.png">
+        <div class=card-block>
+          <div class=card-title>
+            <h4>MAPP</h4>
+            <a class="cardLink" href="http://mapp-ga.herokuapp.com">View</a>
+          </div>
+          <div class=card-text>An itinerary planner, where the user can filter venues by location, price and venue types before adding to an itinerary and emailing to friends. Uses Google Maps API and nodemailer.</div>
+          <br/>
+          <div class=card-text>Built using JavaScript ES6, SCSS, HTML5, AngularJS, Express, Mongo and Gulp</div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row page-four">
+    <div class="col-md-8 offset-md-2">
+      <div class="card">
+        <img class="card-img-top image-responsive" src="./images/footyfinder1.png">
+        <div class=card-block>
+          <div class=card-title>
+            <h4>Footy Finder</h4>
+            <a class="cardLink" href="http://footyfinder.herokuapp.com">View</a>
+          </div>
+          <div class=card-text>For my second project I built a fully RESTful Express app with authentication. I designed it for people to find a team to play 5-a-side football in the London area. I used Google Maps API and a Mongo database to store locations of teams, and the leagues they play in.</div>
+          <br/>
+          <div class=card-text>Built using HTML5, SCSS, JavaScriptS ES6, EJS, Express, Bootstrap, Mongo and Gulp</div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row page-five">
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <img class="card-img-top image-responsive" src="./images/oneclickwonder1.png">
+          <div class=card-block>
+            <div class=card-title>
+              <h4>One Click Wonder</h4>
+              <a class="cardLink" href="http://oneclickwonder.herokuapp.com">View</a>
+            </div>
+            <div class=card-text>
+              A JavaScript browser game where the aim is to break blocks in the least amount of clicks possible.
+            </div>
+            <br/>
+            <div class=card-text>Built using HTML5, SCSS, JavaScriptS ES6 and jQuery</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+        <img class="card-img-top image-responsive info-img" src="images/me.jpg">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <h3 class="card-title info-title">About</h3>
+          <div class="card-block">
+            <p>Coming from a background in gardening and having worked multiple jobs in the horticultural industry, I increasingly felt the need for a different challenge. So I looked into whether I could move into working in another old hobby of mine, coding. I used to play around trying to make websites in the late 90s but never really did anything with it after that, as at the time I didn’t believe it to be a viable career path.</p>
+
+            <p>I enjoy problem solving and creativity, and I’ve found web development to be the perfect marriage of the two. With that in mind I made the decision that it’s what I want to do with my life, so I joined General Assembly’s WDI course in August 17. I’ve really enjoyed the course and its concreted my belief that this is the path I want to take.</p>
+
+            <p>I’m excited to pursue a career in web development, and want to work for a company that will support my ambition and continue learning within a team of like-minded people that I could grow from.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="card">
+            <h3 class="card-title info-title">Contact</h3>
+            <div class="card-block">
+              <h5><a class="contact" href="mailto:williamjtye@gmail.com"><i class="fa fa-google"></i> williamjtye@gmail.com</a></h5>
+              <h5><a class="contact" href="http://linkedin.com/in/williamjtye"><i class="fa fa-linkedin"></i> linkedin.com/in/williamjtye</a></h5>
+              <h5><a class="contact" href="http://github.com/WillTDS"><i class="fa fa-github"></i> github.com/WillTDS</h5></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
   </main>
 </body>
 </html>
