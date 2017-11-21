@@ -6,6 +6,19 @@ body {
   margin: 0;
 }
 
+header {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navLink {
+  color: white;
+  display: block;
+  text-align: center;
+}
+
 main {
   height: 100%;
   width: 100vw;
