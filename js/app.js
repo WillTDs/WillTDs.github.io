@@ -1,18 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  $('a[href*="#"]').click(function() {
-    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'')
-    || location.hostname === this.hostname) {
+  const $main = $('main');
 
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body, main').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
+  $('a[href*="#"]').click(function(e) {
+    e.preventDefault();
+
+    const target = $(this.hash);
+    if (target.length) {
+      $main.animate({
+        scrollTop: target.offset().top - ($main.offset().top - $main.scrollTop())
+      }, 800);
     }
+
   });
 
 });
