@@ -17,6 +17,7 @@ header {
   color: white;
   display: block;
   text-align: center;
+  margin:0 0 5px 5px;
 }
 
 main {
@@ -82,6 +83,7 @@ a {
 
 .pfTitle {
   text-align: center;
+  font-size: 4rem;
 }
 
 .card {
@@ -89,6 +91,17 @@ a {
   border: 1px solid black;
 }
 
+.card-one {
+  margin-top: 0;
+}
+
+.project-card {
+  margin-top: 40px;
+}
+
+.contact {
+  margin: 250px 0;
+}
 .card-img-top {
   max-width: 100%;
 }
