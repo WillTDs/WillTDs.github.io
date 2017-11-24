@@ -1,153 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Pathway+Gothic+One');
+
+/*font-family: 'Cardo', serif;
+font-family: 'Pathway Gothic One', sans-serif;*/
+
+* {
+  box-sizing: border-box;
+}
+
 html, body {
-  height: 100vh;
-}
-
-body {
   margin: 0;
+  padding: 0;
 }
 
-header {
-  position: fixed;
-  z-index: 100;
-  top: 50%;
-  transform: translateY(-50%);
+body, input, button {
+  font-family: 'Cardo', serif;
+  color: #313131;
 }
 
-.pageWrap {
-  height: 100vh;
-  display: flex;
-  align-items: center;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin: 0;
+  letter-spacing: 1px;
 }
 
-.navLink {
-  color: white;
-  display: block;
-  text-align: center;
-  margin:0 0 5px 5px;
+p {
+  font-size: 16px;
+  line-height: 1.4;
 }
 
-main {
-  height: 100%;
-  width: 100vw;
-  background-image: url('../images/will.jpeg');
+.parallax {
+  background-image: url("../images/hero-new.jpg");
+  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: scroll;
-}
-
-.container {
-  margin: 0;
-  width: 100%;
-}
-
-h1 {
-  font-family: 'Pathway Gothic One', sans-serif;
-  color: #fff;
-  font-weight: bold;
-  margin: 0;
-  margin-bottom: 15px;
-  display: block;
-  font-size: 3rem;
-  text-shadow: 0px 0px 3px rgba(150, 150, 150, 0.75);
-}
-
-a {
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 2rem;
-  /*margin-right: 10px;*/
-  border: 1px solid #fff;
-  border-radius: 3px;
-  color: #fff;
-  padding: 4px 6px;
-}
-
-.column {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
-  vertical-align: middle;
-}
-
-.headings {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.header1 {
+  justify-content: center;
   text-align: center;
-  font-size: 100px;
-  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-/*portfolio*/
-
-.portfolio {
-  background-color: #7b7a7a;
+.parallax h1 {
+  font-size: 72px;
+  text-transform: uppercase;
 }
 
-.pfTitle {
-  text-align: center;
-  font-size: 4rem;
+.parallax h2 {
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
-.card {
-  border: 1px solid black;
-}
-
-.contact {
-  margin: 250px 0;
-}
-
-.card-img-top {
+img {
   max-width: 100%;
 }
 
-.card-title {
-  display: flex;
-  justify-content: space-between;
-}
-
-.cardLink {
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 1.5rem;
-  border: 1px solid #000;
-  border-radius: 3px;
-  color: #000;
-  padding: 4px 12px;
-}
-
-/*info*/
-
-.info {
+.content {
   height: 100vh;
-  background-color: #7b7a7a;
+  background-color: white;
+  display: flex;
 }
 
-h5 {
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container .row {
+  display: flex;
+  margin-left: -20px;
+  margin-right: -20px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e2e2e2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container .row .col {
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+}
+
+.project-title h3 {
+  font-size: 33px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  position: relative;
+  top: -1px;
+}
+
+nav {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: #313131;
+  text-decoration: none;
+  border: 1px solid #313131;
+  padding: 5px 10px;
   font-family: 'Pathway Gothic One', sans-serif;
-  margin-bottom: 0;
-  line-height: 2;
-  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-right: 5px;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
-.fa {
-  font-size: 24px;
+nav a:hover {
+  box-shadow: 0 0 0 1px #313131 inset;
+}
+
+.project-title a {
+  /*font-style: italic;*/
+  color: #313131;
+  text-decoration: none;
+  border: 1px solid #313131;
+  padding: 3px 8px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
   margin-right: 5px;
+  text-align: center;
+}
+
+.project-title a:hover {
+  box-shadow: 0 0 0 1px #313131 inset;
 }
 
 .contact {
-  color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.info-img {
-  border: 3px solid white;
-  margin: 20px auto;
-  border-radius: 50%;
-  width: 90%;
+.contact h3 {
+  margin-bottom: 10px;
 }
 
-.info-title {
-  margin: 1.25rem 0 0 1.25rem;
+.contact a {
+  color: #313131;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+
+}
+
+@media only screen and (max-width: 767px) {
+  .container .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .container .row .col {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
 }
