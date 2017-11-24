@@ -96,17 +96,10 @@ a {
   border: 1px solid black;
 }
 
-.card-one {
-  margin-top: 0;
-}
-
-/*.project-card {
-  margin-top: 40px;
-}*/
-
 .contact {
   margin: 250px 0;
 }
+
 .card-img-top {
   max-width: 100%;
 }
