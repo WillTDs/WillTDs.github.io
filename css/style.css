@@ -13,6 +13,12 @@ header {
   transform: translateY(-50%);
 }
 
+.pageWrap {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 .navLink {
   color: white;
   display: block;
@@ -87,7 +93,6 @@ a {
 }
 
 .card {
-  margin-bottom: 40px;
   border: 1px solid black;
 }
 
@@ -95,9 +100,9 @@ a {
   margin-top: 0;
 }
 
-.project-card {
+/*.project-card {
   margin-top: 40px;
-}
+}*/
 
 .contact {
   margin: 250px 0;
