@@ -59,6 +59,10 @@ img {
   max-width: 100%;
 }
 
+.project-img {
+  border: 1px solid #e2e2e2;
+}
+
 .content {
   height: 100vh;
   background-color: white;
