@@ -1,117 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>William Tye</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./js/app.js" charset="utf-8"></script>
-  </head>
-  <body>
-    <main>
-      <div class="parallax">
-        <h1>William Tye</h1>
-        <h2>Web Developer</h2>
-        <nav>
-          <a class="scrollTo" href="#about">About</a>
-          <a class="scrollTo" href="#projects">Projects</a>
-          <a class="scrollTo" href="#contact">Contact</a>
-        </nav>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>William Tye</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/app.js" charset="utf-8"></script>
+</head>
+<body>
+  <main>
+    <div class="parallax">
+      <h1>William Tye</h1>
+      <h2>Web Developer</h2>
+      <nav>
+        <a class="scrollTo" href="#about">About</a>
+        <a class="scrollTo" href="#projects">Projects</a>
+        <a class="scrollTo" href="#contact">Contact</a>
+      </nav>
+    </div>
 
-      <div class="content">
-        <div class="container">
-          <!-- ABOUT -->
-          <div class="row" id="about">
-            <div class="col">
-              <img src="./images/will.jpg">
-            </div>
-            <div class="col">
-              <div class="project-title">
-                <h3>About</h3>
-              </div>
-              <p>Coming from a background in gardening and having worked multiple jobs in the horticultural industry, I increasingly felt the need for a different challenge. So I looked into whether I could move into working in another old hobby of mine, coding. I used to play around trying to make websites in the late 90s but never really did anything with it after that, as at the time I didn’t believe it to be a viable career path.</p>
-
-              <p>I enjoy problem solving and creativity, and I’ve found web development to be the perfect marriage of the two. With that in mind I made the decision that it’s what I want to do with my life, so I joined General Assembly’s WDI course in August 17. I’ve really enjoyed the course and its concreted my belief that this is the path I want to take.</p>
-
-              <p>I’m excited to pursue a career in web development, and want to work for a company that will support my ambition and continue learning within a team of like-minded people that I could grow from.</p>
-            </div>
+    <div class="content">
+      <div class="container">
+        <!-- ABOUT -->
+        <div class="row" id="about">
+          <div class="col">
+            <img src="./images/will.jpg">
           </div>
-          <div id="projects">
-            <!-- PROJECT 1 -->
-            <div class="row" id="project1">
-              <div class="col">
-                <img src="./images/landmarker.png">
-              </div>
-              <div class="col">
-                <div class="project-title">
-                  <h3>Landmarker</h3>
-                  <a href="http://land-marker.herokuapp.com" target="_blank">Launch the app</a> <a href="https://github.com/WillTDs/WDI-Project-4" target="_blank">View the code</a>
-                </div>
-                <p>A mobile app, that uses Google Vision and Wiki API to allow the user to take a photo of a landmark and recieve information from wikipedia about it. The user can then listen or read about what they are looking at in the language that they chose.</p>
-                <br/>
-                <p>Built using JavaScript ES6, SCSS, HTML5, ReactJS, Express, Mongo and Webpack</p>
-              </div>
-            </div>
-            <!-- PROJECT 2 -->
-            <div class="row" id="project2">
-              <div class="col">
-                <img src="./images/mapp.png">
-              </div>
-              <div class="col">
-                <div class="project-title">
-                  <h3>Mapp</h3>
-                  <a href="http://mapp-ga.herokuapp.com" target="_blank">Launch the app</a> <a href="https://github.com/WillTDs/wdi-project3" target="_blank">View the code</a>
-                </div>
-                <p>An itinerary planner, where the user can filter venues by location, price and venue types before adding to an itinerary and emailing to friends. Uses Google Maps API and nodemailer.</p>
-                <br/>
-                <p>Built using JavaScript ES6, SCSS, HTML5, AngularJS, Express, Mongo and Gulp</p>
-              </div>
-            </div>
-            <!-- PROJECT 3 -->
-            <div class="row" id="project3">
-              <div class="col">
-                <img src="./images/footyfinder.png">
-              </div>
-              <div class="col">
-                <div class="project-title">
-                  <h3>Footy Finder</h3>
-                  <a href="http://footyfinder.herokuapp.com" target="_blank">Launch the app</a> <a href="https://github.com/WillTDs/WDI-Project-2" target="_blank">View the code</a>
-                </div>
-                <p>For my second project I built a fully RESTful Express app with authentication. I designed it for people to find a team to play 5-a-side football in the London area. I used Google Maps API and a Mongo database to store locations of teams, and the leagues they play in.</p>
-                <br/>
-                <p>Built using HTML5, SCSS, JavaScriptS ES6, EJS, Express, Bootstrap, Mongo and Gulp</p>
-              </div>
-            </div>
-            <!-- PROJECT 4 -->
-            <div class="row" id="project4">
-              <div class="col">
-                <img src="./images/oneclickwonder.png">
-              </div>
-              <div class="col">
-                <div class="project-title">
-                  <h3>One Click Wonder</h3>
-                  <a href="http://oneclickwonder.herokuapp.com" target="_blank">Launch the app</a> <a href="https://github.com/WillTDs/WDI-Project-1" target="_blank">View the code</a>
-                </div>
-                <p>A JavaScript browser game where the aim is to break blocks in the least amount of clicks possible.</p>
-                <br/>
-                <p>Built using HTML5, SCSS, JavaScriptS ES6 and jQuery</p>
-              </div>
-            </div>
-          </div>
-          <!-- CONTACT -->
-          <div class="contact" id="contact">
+          <div class="col">
             <div class="project-title">
-              <h3>Contact</h3>
+              <h3>About</h3>
             </div>
-            <a href="mailto:williamjtye@gmail.com"><i class="fa fa-google"></i> williamjtye@gmail.com</a>
-            <a href="http://linkedin.com/in/williamjtye"><i class="fa fa-linkedin"></i> linkedin.com/in/williamjtye</a>
-            <a href="http://github.com/WillTDS"><i class="fa fa-github"></i> github.com/WillTDS</a>
+
+            <p>I have worked for several years in the horticultural industry but have increasingly felt the need to redirect my career with a different challenge. So I researched how I could move into another passion of mine, coding. I used to play around trying to make websites in the late 90s but could not see a viable career path at the time.</p>
+
+          </p>I enjoy problem solving and creativity, and have found web development to be the perfect marriage of the two. With that in mind I made the decision that this is right for me. So I left horticulture and devoted a year learning full-time through online courses in preparation for General Assembly’s Web Development Immersive course in August 2017. I found the course very stimulating, demanding and really enjoyable and it has confirmed my belief that this is the path I want to take.</p>
+
+          <p>I am excited to pursue a career in web development, and want to work for a company that will support my ambition and continue learning within a team of like-minded people that would help me learn and grow.</p>
+        </div>
+      </div>
+      <div id="projects">
+        <!-- PROJECT 1 -->
+        <div class="row" id="project1">
+          <div class="col">
+            <img src="./images/landmarker.png">
+          </div>
+          <div class="col">
+            <div class="project-title">
+              <h3>Landmarker</h3>
+              <a href="http://land-marker.herokuapp.com" target="_blank">Launch the app</a> <a href="https://github.com/WillTDs/WDI-Project-4" target="_blank">View the code</a>
+            </div>
+            <p>A mobile app, that uses Google Vision and Wiki API to allow the user to take a photo of a landmark and recieve information from wikipedia about it. The user can then listen or read about what they are looking at in the language that they chose.</p>
+            <br/>
+            <p>Built using JavaScript ES6, SCSS, HTML5, ReactJS, Express, Mongo and Webpack</p>
+          </div>
+        </div>
+        <!-- PROJECT 2 -->
+        <div class="row" id="project2">
+          <div class="col">
+            <img src="./images/mapp.png">
+          </div>
+          <div class="col">
+            <div class="project-title">
+              <h3>Mapp</h3>
+              <a href="http://mapp-ga.herokuapp.com" target="_blank">Launch the app</a> <a href="https://github.com/WillTDs/wdi-project3" target="_blank">View the code</a>
+            </div>
+            <p>An itinerary planner, where the user can filter venues by location, price and venue types before adding to an itinerary and emailing to friends. Uses Google Maps API and nodemailer.</p>
+            <br/>
+            <p>Built using JavaScript ES6, SCSS, HTML5, AngularJS, Express, Mongo and Gulp</p>
+          </div>
+        </div>
+        <!-- PROJECT 3 -->
+        <div class="row" id="project3">
+          <div class="col">
+            <img src="./images/footyfinder.png">
+          </div>
+          <div class="col">
+            <div class="project-title">
+              <h3>Footy Finder</h3>
+              <a href="http://footyfinder.herokuapp.com" target="_blank">Launch the app</a> <a href="https://github.com/WillTDs/WDI-Project-2" target="_blank">View the code</a>
+            </div>
+            <p>For my second project I built a fully RESTful Express app with authentication. I designed it for people to find a team to play 5-a-side football in the London area. I used Google Maps API and a Mongo database to store locations of teams, and the leagues they play in.</p>
+            <br/>
+            <p>Built using HTML5, SCSS, JavaScriptS ES6, EJS, Express, Bootstrap, Mongo and Gulp</p>
+          </div>
+        </div>
+        <!-- PROJECT 4 -->
+        <div class="row" id="project4">
+          <div class="col">
+            <img src="./images/oneclickwonder.png">
+          </div>
+          <div class="col">
+            <div class="project-title">
+              <h3>One Click Wonder</h3>
+              <a href="http://oneclickwonder.herokuapp.com" target="_blank">Launch the app</a> <a href="https://github.com/WillTDs/WDI-Project-1" target="_blank">View the code</a>
+            </div>
+            <p>A JavaScript browser game where the aim is to break blocks in the least amount of clicks possible.</p>
+            <br/>
+            <p>Built using HTML5, SCSS, JavaScriptS ES6 and jQuery</p>
           </div>
         </div>
       </div>
-    </main>
-  </body>
+      <!-- CONTACT -->
+      <div class="contact" id="contact">
+        <div class="project-title">
+          <h3>Contact</h3>
+        </div>
+        <a href="mailto:williamjtye@gmail.com"><i class="fa fa-google"></i> williamjtye@gmail.com</a>
+        <a href="http://linkedin.com/in/williamjtye"><i class="fa fa-linkedin"></i> linkedin.com/in/williamjtye</a>
+        <a href="http://github.com/WillTDS"><i class="fa fa-github"></i> github.com/WillTDS</a>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
 </html>
